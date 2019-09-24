@@ -1,0 +1,14 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "stdlib.h": "c",
+        "vector.h": "c",
+        "string.h": "c",
+        "stdio.h": "c",
+        "list": "cpp",
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "string_view": "cpp",
+        "regex": "cpp"
+    }
+}

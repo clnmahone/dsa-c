@@ -12,7 +12,7 @@ void destroyList(List* list)
 {
     free(list);
 }
-void clearList()
+void clearList(List* list)
 {
     
 }

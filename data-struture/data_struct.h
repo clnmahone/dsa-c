@@ -50,7 +50,7 @@ typedef struct
 
 } Deque;
 
-//stack
+//Stack
 typedef struct
 {
     int* top;
@@ -67,7 +67,6 @@ typedef struct Node
     int val;
     Node *next;
 } Node;
-Node* creatNode(int val);
 
 
 
@@ -85,7 +84,4 @@ typedef struct
 } ALGraph;
 
 
-
 #endif
-
-defined()

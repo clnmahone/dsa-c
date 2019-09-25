@@ -2,11 +2,13 @@
 
 #ifndef __ADT_LIST_H
 #define __ADT_LIST_H
+
 #include "node.h"
+
 typedef struct List
 {
     int iterator;
-};
+} List;
 
 List *creatList();
 void destroyList(List* list);

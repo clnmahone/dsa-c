@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "C:\Users\Mahone\Desktop\c++\Deque.c"
+#include "Deque.c"
 
 //邻接表
 //adjListNode

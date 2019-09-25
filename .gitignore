@@ -27,4 +27,4 @@ buildNumber.properties
 .vscode/
 
 # EXE
-.exe
+*.exe

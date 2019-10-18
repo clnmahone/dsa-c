@@ -21,6 +21,10 @@ Stack *creatStack(int capacity)
 //     }
 // }
 
+/**
+ * push
+ * 
+*/
 void push(Stack *s, int val)
 {
 
@@ -30,6 +34,10 @@ void push(Stack *s, int val)
         s->items[++s->top] = val;
 }
 
+/**
+ * pop
+ * 
+*/
 int pop(Stack *s)
 {
     if (IS_EMPTY(s))
@@ -41,6 +49,10 @@ int pop(Stack *s)
         return s->items[s->top--];
 }
 
+/**
+ * peek
+ * 
+*/
 int peek(Stack *s)
 {
 
@@ -53,11 +65,10 @@ int peek(Stack *s)
         return s->items[s->top];
 }
 
-void show(int data)
-{
-    printf("%d ", data);
-}
-
+/**
+ * traverse
+ * 
+*/
 void stackTraverseTop(Stack *stack, void (*opt)(int))
 {
     for (int i = SIZE(stack) - 1; i >= 0; i--)

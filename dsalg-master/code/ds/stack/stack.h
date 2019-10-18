@@ -7,6 +7,7 @@ typedef struct Stack {
     int items[];
 } Stack;
 
+//宏定义
 #define SIZE(stack) (stack->top + 1)
 #define IS_EMPTY(stack) (stack->top == -1)
 #define IS_FULL(stack) (stack->top == stack->capacity - 1)

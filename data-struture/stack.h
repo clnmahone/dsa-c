@@ -18,7 +18,6 @@ Stack *creatStack(int capacity);
 int pop(Stack *s);
 void push(Stack *s, int val);
 int peek(Stack *s);
-void show(int data);
 void stackTraverseTop(Stack *stack, void (*opt)(int));
 void stackTraverseBottom(Stack *stack, void (*opt)(int));
 

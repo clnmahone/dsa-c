@@ -9,7 +9,7 @@ int main() {
 
 	if(a<b) swap(p1,p2);
 	printf("a=%d,b=%d\n",a,b);
-	printf("%d,%d\n",*p1,*p2);
+	printf("*p1=%d,*p2=%d\n",*p1,*p2);
 	return 0;
 }
 void swap(int *p1, int *p2) {
